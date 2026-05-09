@@ -172,40 +172,82 @@ http://localhost:8082
 ---
 
 ## 📸 Screenshots
-### Project Opening Page UI
-<img width="1897" height="1029" alt="OpeningPageUI" src="https://github.com/user-attachments/assets/03725970-5421-4990-b0b8-2b42efbe4ff9" />
 
+### Project Opening Page UI
+
+![Opening Page](assets/screenshots/Opening-PageUI.png)
+
+---
 
 ### Login Page
-<img width="1917" height="1033" alt="LoginPage" src="https://github.com/user-attachments/assets/4245e630-c841-48d4-952e-fda66bc23e38" />
 
+![Login Page](assets/screenshots/Login-Page.png)
+
+---
 
 ### Customer Dashboard
-<img width="1898" height="1027" alt="CustomerDashboard" src="https://github.com/user-attachments/assets/74daee37-a35e-4ed4-b13b-0ffe0dbe5ae4" />
 
+![Customer Dashboard](assets/screenshots/Customer-Dashboard.png)
+
+---
 
 ### Loan Management
-<img width="1898" height="1030" alt="LoanDashboard" src="https://github.com/user-attachments/assets/ea44f028-d72a-4435-a5a4-66b4f15e3430" />
 
+![Loan Dashboard](assets/screenshots/Loan-Dashboard.png)
+
+---
 
 ### Admin Panel
-<img width="1901" height="1030" alt="AdminDashboard" src="https://github.com/user-attachments/assets/22610aca-9e72-47d3-b5c6-e964fc94aaed" />
 
+![Admin Dashboard](assets/screenshots/Admin-Dashboard.png)
+
+---
 
 ### Razorpay Payment Integration
-<img width="1901" height="1031" alt="RazorPay_PaymentGataeway" src="https://github.com/user-attachments/assets/305f037b-ba0f-4153-8ace-5eca33f00603" />
 
+![Razorpay Payment](assets/screenshots/RazorPay-Payment-Gateaway.png)
+
+---
 
 ### Fraud Detection Dashboard
-<img width="1903" height="1032" alt="FraudAlert" src="https://github.com/user-attachments/assets/107e7c67-cd96-4e96-a941-e44ee431cac3" />
 
+![Fraud Alert](assets/screenshots/Fraud-Alert.png)
+
+---
+
+### Hidden Balance Front Page
+
+![Hidden Balance Front](assets/screenshots/Hidden-Balance-FrontPage-UI.png)
+
+---
 
 ### Hidden Balance Vault
-<img width="1916" height="1024" alt="HiddenBalanceVault" src="https://github.com/user-attachments/assets/fd6d3441-cd25-4e1a-9980-09c0beaa08b3" />
 
+![Hidden Balance Vault](assets/screenshots/Hidden-Balance-Vault.png)
+
+---
 
 ### Balance Check Section
-<img width="1913" height="1029" alt="CheckBalanceSection" src="https://github.com/user-attachments/assets/8b5189a1-6e43-4cb5-b054-dd91333e92e0" />
+
+![Check Balance](assets/screenshots/Check-Balance.png)
+
+---
+
+### Loan Application Section
+
+![Apply Loan](assets/screenshots/Loan-Dashboard.png)
+
+---
+
+### FAQ Management
+
+![FAQ Management](assets/screenshots/FAQ-management.png)
+
+---
+
+### Deposit Money Section
+
+![Deposit Money](assets/screenshots/Deposite-Money.png)
 
 ---
 
