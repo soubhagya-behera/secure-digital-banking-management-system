@@ -182,7 +182,7 @@ http://localhost:8082
 MCA Student | Java Full Stack Developer
 
 - GitHub: https://github.com/soubhagya-behera
-- LinkedIn: Add your LinkedIn profile here
+- LinkedIn: https://www.linkedin.com/in/soubhagyakumar-java
 
 ---
 
