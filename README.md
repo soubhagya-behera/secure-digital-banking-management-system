@@ -2,7 +2,7 @@
 
 A full-stack digital banking web application built using **Java Spring Boot**, **JSP**, and **MySQL**, designed to provide secure banking operations, intelligent customer assistance, and real-time financial management features.
 
-The application follows a layered MVC architecture and integrates modern services like AI chatbot support, SMS notifications, email automation, and PDF statement generation.
+The system follows a layered MVC architecture and integrates modern technologies like AI chatbot support, Razorpay payment gateway, fraud detection, biometric security, OTP verification, and automated EMI reminder services.
 
 ---
 
@@ -21,6 +21,7 @@ The application follows a layered MVC architecture and integrates modern service
 | Payment Gateway | Razorpay |
 | Build Tool | Maven |
 | Containerization | Docker |
+| Security | HMAC-SHA256, OTP Verification, Fraud Detection |
 
 ---
 
@@ -31,7 +32,8 @@ The application follows a layered MVC architecture and integrates modern service
 - Secure session-based authentication system
 - REST API integration with OpenRouter AI
 - Automated email and SMS notification workflows
-- Modular banking transaction management
+- Fraud detection and transaction monitoring
+- Razorpay payment signature verification using HMAC-SHA256
 - Responsive and user-friendly dashboard interface
 
 ---
@@ -42,43 +44,61 @@ The application follows a layered MVC architecture and integrates modern service
 - User Registration and Login
 - BCrypt password encryption
 - OTP verification using Twilio SMS
-- Secure session handling
+- Session-based authentication
+- Password reset via OTP email verification
 
-### 💳 Banking Operations
-- Account creation and management
+### 🏦 Banking Operations
+- Account creation with admin approval
 - Deposit and withdrawal operations
-- Fund transfer system
-- Beneficiary management
-- Transaction history and mini statements
+- OTP-secured fund transfers
+- Beneficiary management system
+- Mini statement and transaction history
+- PDF statement download using iTextPDF
 
-### 📊 Customer Dashboard
-- Account overview
-- Balance inquiry
-- Payment history
-- Profile management
+### 💳 Razorpay Payment Integration
+- Live Razorpay payment gateway integration
+- Secure HMAC-SHA256 payment signature verification
+- Real-time payment processing
 
-### 🏦 Loan Management
+### 🏷️ Loan Management
 - Loan application system
-- EMI schedule tracking
-- Automated EMI reminder emails
-- Loan dashboard management
+- EMI calculation and tracking
+- Automated EMI reminder emails using Spring Scheduler
+- Loan approval management
 
 ### 🤖 AI Chatbot Assistant
-- Intelligent banking chatbot
-- Customer query assistance
-- OpenRouter AI integration
+- AI-powered banking chatbot using OpenRouter API
+- Rule-based customer query assistance
+- 24/7 banking support simulation
 
-### 🛠️ Admin Panel
-- User management
-- Active user monitoring
+### 🛡️ Advanced Security Features
+- Fraud Detection Engine
+- Auto-flagging transactions above ₹50,000
+- Rate limiting for suspicious activities
+- Admin fraud monitoring dashboard
+- Hidden Balance Vault with secure PIN protection
+- WebAuthn biometric fingerprint authentication
+
+### 🛠️ Admin Portal
+- Customer account approval system
+- User management dashboard
+- Block/Unblock accounts
 - FAQ management
-- Customer account administration
+- Active user monitoring
+- Fraud alert review system
+
+### 📊 Dashboard & Analytics
+- Customer dashboard with account overview
+- Real-time transaction tracking
+- Payment history monitoring
+- Responsive UI design
 
 ### 📄 Additional Features
-- PDF statement export
-- Email notifications
-- Responsive UI design
 - Docker support
+- Email notifications
+- SMS integration
+- MVC architecture
+- JDBC-based database operations
 
 ---
 
@@ -142,8 +162,11 @@ http://localhost:8082
 
 - BCrypt password hashing
 - Session-based authentication
-- Secure database credential management
 - OTP verification via SMS
+- Fraud detection and suspicious activity monitoring
+- HMAC-SHA256 payment signature verification
+- Secure database credential management
+- Biometric authentication support
 - Protected banking operations
 
 ---
@@ -162,6 +185,12 @@ http://localhost:8082
 ### Admin Panel
 (Add screenshot here)
 
+### Razorpay Payment Integration
+(Add screenshot here)
+
+### Fraud Detection Dashboard
+(Add screenshot here)
+
 ---
 
 ## 📈 Future Enhancements
@@ -170,8 +199,10 @@ http://localhost:8082
 - RESTful API conversion
 - React.js frontend integration
 - Cloud deployment (AWS)
-- Online payment analytics
-- Role-based authorization
+- AI-based fraud analytics using Machine Learning
+- UPI and Net Banking integration
+- Mobile application support
+- Microservices architecture migration
 
 ---
 
