@@ -193,7 +193,7 @@ http://localhost:8082
 
 ### Loan Management
 
-![Loan Dashboard](assets/screenshots/Loan-Dashboard.png)
+![Loan Dashboard](assets/screenshots/Loan-Dashboard.jpeg)
 
 ---
 
